@@ -2,6 +2,24 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+.cardDetails{
+  color: rgb(8, 248, 88);
+  font-size: medium;
+}
+
+.CardInstruction{
+  font-size: large;
+  color:rgb(8, 248, 88);
+  text-align: right;
+  border: #000000;
+}
+
+.imgArrow{
+  size: medium;
+  text-align: right;
+  margin-right: 80px;
+}
+
 
 body {
   background: #c7c7c7 linear-gradient(to bottom right, #d1d1d1, #1c1f1e);
