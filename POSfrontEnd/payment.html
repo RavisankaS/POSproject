@@ -28,6 +28,7 @@
         <div class="field card-num">
           <input id="card_num" required pattern="(\d{4}\s?){4}" placeholder="0000 0000 0000 0000" maxlength="19">
           <label for="card_num">Card Number</label>
+        <div class ="cardDetails"><a>Enter your card  number here</a></div>
         </div>
         <div class="field name">
           <input id="name" required placeholder="Dave Kendell">
@@ -44,13 +45,18 @@
           <input type="radio" name="card_type" value="mastercard" id="card_type_mastercard">
           <label class="card-type__logo mastercard" for="card_type_visa">Mastercard</label>
         </div>
-      </div>
-  
-      <div class="field csv">
-        <input id="csv" required pattern="\d{3}" placeholder="000" maxlength="3">
-        <label for="csv">CSV</label>
-      </div>
-  
+      </div><div></div>
+      
+    </br>
+    
+    <div class = "imgArrow"><img src="assets/arrow.png" alt="arrow" height="40px" width="20px"></div> 
+    <div class="CardInstruction"><a>Click on the image to change your provider</a></div>
+
+    <div class="field csv">
+      <input id="csv" required pattern="\d{3}" placeholder="000" maxlength="3">
+      <label for="csv">CSV</label>
+    </div>
+
       <div class="field submit">
         <button class="btn-submit"><a href="sales.html" style="text-decoration: none; color: black;">⬅ Go Back </a></button>
         <button class="btn-submit"><a href="invoice.html" style="text-decoration: none; color: black;">Complete➡</a></button>        
