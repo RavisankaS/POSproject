@@ -8,4 +8,4 @@ Niagara College - POS system project Front End
 -Adam Augier (Adam)
 -Ravisanka Siriwardenage (Rav)
 
-#Front end POS system design with functionality
+#Front end POS system design with functionality 
